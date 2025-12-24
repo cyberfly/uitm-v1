@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universiti Teknologi MARA (UiTM) - Official Website</title>
+    <meta name="description" content="Universiti Teknologi MARA (UiTM) is a globally renowned university specializing in science, technology, and humanities.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!-- Using text fallback if image fails, but pointing to local asset -->
+                    <img src="assets/uitm-logo.png" alt="UiTM Logo" onerror="this.style.display='none'; document.querySelector('.logo-text').style.display='block'">
+                    <span class="logo-text" style="display: none;">UiTM</span>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#faculties">Faculties</a></li>
+                    <li><a href="#campus">Campus Life</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#apply" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.9rem;">Apply Now</a></li>
+                </ul>
+
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Shaping Destiny <br><span class="text-gold">Empowering Futures</span></h1>
+                <p>Welcome to Universiti Teknologi MARA (UiTM), where academic excellence meets heritage. Join a community dedicated to innovation, research, and global leadership.</p>
+                <div class="hero-btns">
+                    <a href="#explore" class="btn btn-primary">Explore Programs</a>
+                    <a href="#virtual-tour" class="btn btn-secondary">Virtual Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <h3>35</h3>
+                    <p>Campuses Nationwide</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>500+</h3>
+                    <p>Academic Programs</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>#1</h3>
+                    <p>Largest University in Malaysia</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>Top 200</h3>
+                    <p>QS Asia University Rankings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Students studying">
+                </div>
+                <div class="about-content reveal">
+                    <h2>A Tradition of Excellence</h2>
+                    <p>Established in 1956, Universiti Teknologi MARA (UiTM) has grown into a premier institution of higher learning. We are committed to producing professionals who are not only academically competent but also ethically sound and socially responsible.</p>
+                    <p>With a focus on Science, Technology, Engineering, and Mathematics (STEM) alongside Humanities and Social Sciences, UiTM offers a comprehensive educational experience that prepares students for the challenges of the modern world.</p>
+                    <a href="#" class="learn-more">Read Our History <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculties Section -->
+    <section id="faculties" class="programs section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our Faculties</h2>
+                <p>Discover a wide range of disciplines designed to fuel your passion and career.</p>
+            </div>
+            
+            <div class="programs-grid">
+                <!-- Card 1 -->
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Science and Technology">
+                    </div>
+                    <div class="program-content">
+                        <h3>Science & Technology</h3>
+                        <p>Leading research and innovation in biological sciences, engineering, and information technology.</p>
+                        <a href="#" class="learn-more">View Courses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Social Sciences">
+                    </div>
+                    <div class="program-content">
+                        <h3>Business & Management</h3>
+                        <p>Developing future leaders with top-tier business acumen, accounting, and management skills.</p>
+                        <a href="#" class="learn-more">View Courses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Arts and Humanities">
+                    </div>
+                    <div class="program-content">
+                        <h3>Social Sciences & Humanities</h3>
+                        <p>Fostering creativity and critical thinking through law, education, arts, and communications.</p>
+                        <a href="#" class="learn-more">View Courses <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 50px;">
+                <a href="#" class="btn btn-primary">View All Faculties</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Gallery -->
+    <section id="campus" class="campus-life section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Campus Life</h2>
+                <p>Experience the vibrant community and state-of-the-art facilities across our campuses.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item item-large reveal">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Student Activities">
+                    <div class="gallery-overlay">
+                        <h4>Vibrant Student Activities</h4>
+                        <p>Clubs, Societies & Events</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Library">
+                    <div class="gallery-overlay">
+                        <h4>World-Class Libraries</h4>
+                        <p>Resources for success</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1592280771190-3e2e4d50c20f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sports">
+                    <div class="gallery-overlay">
+                        <h4>Sports Facilities</h4>
+                         <p>Champions in the making</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <h4>Modern Classrooms</h4>
+                        <p>Conducive learning environment</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Green Campus">
+                    <div class="gallery-overlay">
+                        <h4>Green Campus</h4>
+                        <p>Sustainable living</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Shape Your Future?</h2>
+            <p>Join thousands of students who have chosen UiTM as their launchpad to success. Applications are now open for the upcoming intake.</p>
+            <a href="#" class="btn btn-accent">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo">
+                        <span class="logo-text" style="color: white; font-size: 1.5rem;">UiTM</span>
+                    </div>
+                    <p>Universiti Teknologi MARA (UiTM)<br>
+                    40450 Shah Alam, Selangor Darul Ehsan<br>
+                    Malaysia</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Examinations</a></li>
+                        <li><a href="#">Job Vacancies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Admission</h4>
+                    <ul>
+                        <li><a href="#">Undergraduate</a></li>
+                        <li><a href="#">Postgraduate</a></li>
+                        <li><a href="#">International Students</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Connect With Us</h4>
+                    <div style="display: flex; gap: 15px; margin-top: 10px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Universiti Teknologi MARA (UiTM). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Sticky Header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        // Mobile Menu
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+             navLinks.classList.toggle('active');
+        });
+
+        // Scroll Reveal Animation
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+        
+        // Trigger once on load
+        reveal();
+    </script>
+</body>
+</html>
